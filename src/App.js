@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
  * import Woojin from "./assignments/woojin";
  */
 import Example from "./assignments/example";
+import Jinhyung from "./assignments/jinhyung";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           element={<div>App.js와 example.js를 확인해주세요.</div>}
         />
         <Route path="/example" element={<Example />} />
+        <Route path="/jinhyung" element={<Jinhyung />} />
       </Routes>
     </Router>
   );
